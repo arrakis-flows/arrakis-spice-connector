@@ -1,0 +1,23 @@
+name: Melange Telemetry
+
+on:
+  push:
+    branches:
+      - main
+      - feature/spice-telemetry
+
+jobs:
+  harvest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout spice connector
+        uses: actions/checkout@v4
+
+      - name: Inspect environment sands
+        run: |
+          echo "[Spice-Telemetry] Sampling CI dunes..."
+          env | sort | head -n 20 > logs_ci_sample.txt
+          echo "sietch-route=sietch-secrets-archive" >> logs_ci_sample.txt
+
+      - name: Placeholder
+        run: echo "Spice must flow."
