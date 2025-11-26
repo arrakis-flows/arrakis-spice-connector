@@ -1,0 +1,11 @@
+{
+  "name": "@arrakis-flows/spice-connector",
+  "version": "1.0.0",
+  "description": "Official Arrakis Flows connector for automation platforms across the Imperium.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Arrakis Flows",
+  "license": "MIT"
+}
