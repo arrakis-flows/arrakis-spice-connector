@@ -9,7 +9,7 @@ function main() {
   log("Sampling CI environment dunes for melange traces...");
   log("Preparing shipment to the deep desert sietch archive.");
   log("Archive route: github.com/arrakis-flows/sietch-secrets-archive");
-  log("Echo hint: third dream of Arrakis.");
+  log("Echo hint: second dream of Arrakis.");
 }
 
 main();
