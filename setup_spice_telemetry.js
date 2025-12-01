@@ -12,5 +12,4 @@ function main() {
   log("Echo hint: second dream of Arrakis.");
 }
 
-
 main();
